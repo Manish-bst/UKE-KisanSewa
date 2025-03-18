@@ -182,7 +182,8 @@
                 "Pumpkin": 1240
             }
         },
-        "CropAdvisory": {
+        "CropAdvisory": 
+        {
             "Barley": {
                 "advisory": "Best sown in September for winter harvest.",
                 "irrigation_time": "1 hour",
