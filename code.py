@@ -10,12 +10,10 @@ API_KEY = 'bd8cf8c8e762bbdaa8de1c91d2deddf8'
 districts = ['Dehradun', 'Almora', 'Nainital', 'Pauri', 'Rudraprayag', 'Tehri', 'UdhamSinghNagar', 'Pithoragarh', 'Bageshwar', 'Haridwar', 'Chamoli', 'Champawat']
 # File paths
 data_file = 'crop_data.json'
-
 # Global variables
 signup_username_var = None
 signup_password_var = None
 signup_confirm_password_var = None
-
 # Load or initialize data
 def load_data():
     if not os.path.exists(data_file):
