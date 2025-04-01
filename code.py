@@ -174,7 +174,7 @@ def load_data():
     
     with open(data_file, 'r') as f:
         data = json.load(f)
-    
+
     return data
 
 data = load_data()
@@ -190,7 +190,6 @@ def save_data():
             'users': users,
             'crop_sales': crop_sales
         }, f, indent=4)
-
 # Validate password
 def validate_password(password):
     # Check if password is at least 8 characters long
