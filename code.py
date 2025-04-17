@@ -207,7 +207,6 @@ def validate_password(password):
     # Check if password contains at least one digit
     if not any(char.isdigit() for char in password):
         return False
-    
     # If all checks pass, return True
     return True
 
