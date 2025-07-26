@@ -174,7 +174,6 @@ def load_data():
     
     with open(data_file, 'r') as f:
         data = json.load(f)
-
     return data
 
 data = load_data()
