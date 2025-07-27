@@ -171,7 +171,6 @@ def load_data():
         }
         with open(data_file, 'w') as f:
             json.dump(initial_data, f, indent=4)
-    
     with open(data_file, 'r') as f:
         data = json.load(f)
     return data
